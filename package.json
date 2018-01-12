@@ -1,0 +1,22 @@
+{
+  "name": "my-electron-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": "https://github.com/bruce0205/my-electron-builder",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "build --win",
+    "ship": "build --win -p always"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.7.10",
+    "electron-builder": "^19.52.1"
+  },
+  "dependencies": {
+    "electron-updater": "^2.18.2"
+  }
+}
